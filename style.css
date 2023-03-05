@@ -1,0 +1,60 @@
+
+
+
+body {background-color:rgb(0, 0, 255, 0.2);}
+
+body 
+{background-image: url("flower.jpeg");
+background-position: right bottom, left top;
+background-repeat: no-repeat,repeat;
+background-size: 100px 80px}
+
+
+h1,h2,h3,h4,p,body {color: black;}
+
+
+h1,h2,h3,h4,p,body {font-family: "Georigia", Times, serif;}
+
+
+
+h1 {font-size: 40px;}
+h2 {font-size: 25px;}
+h3,h4 {font-size: 20px;}
+p,body {font-size: 15px;}
+
+
+#namelit {text-decoration: underline;}
+
+h1 {text-decoration: underline;}
+
+
+ul {list-style-type: square;}
+
+
+
+
+/* unvisited link */
+a:link {color: #F0F8FF;}
+
+/* visited link */
+a:visited {color: #0000FF;}
+
+/* mouse over link */
+a:hover {color: #FF00FF;}
+
+/* selected link */
+a:active {color: #0000FF;}
+
+
+
+p::first-line {
+  color: #2F4F4F;
+  font-variant: small-caps;}
+
+p::first-letter {
+  color: #2F4F4F;
+  font-size: x-large;}
+
+p {line-height:normal;}
+
+
